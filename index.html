@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator wynagrodzenia 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="name">
+            <p>Kalkulator wynagrodzenia 2025</p>
+        </div>
+        <div id="earning-form">
+            <p>Wprowadź kwotę brutto:</p>
+            <form>
+                <input type="number" id="brutto">
+            </form>
+        </div>
+        <div id="result">
+            <p id="u-cho">Ubezpieczenie chorobowe: </p>
+            <p id="u-ren">Ubezpieczenie rentowe: </p>
+            <p id="u-eme">Ubezpieczenie emerytalne: </p>
+            <p id="u-zdr">Ubezpieczenie zdrowotne: </p>
+            <p id="podatek">Podatek dochodowy: </p>
+            <p id="netto">Wynagrodzenie netto: </p>
+        </div>
+        <div id="line"></div>
+        <div id="buttons">
+            <button id="reset" onclick="reset()">Reset</button>
+            <button id="oblicz" onclick="calculate()">Oblicz</button>
+        </div>
+    </div>
+</body>
+</html>
